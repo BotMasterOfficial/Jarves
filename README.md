@@ -1,5 +1,5 @@
 <p align="center"><a href="https://github.com/BotMasterOfficial/Jarves"><img src="https://img.shields.io/badge/𝐉𝐚𝐫𝐯𝐞𝐬-gold?&style=flat-square?&logo=github" width=600px></a></p>
-<p align="center"><a href="https://github.com/BotMasterOfficial/Jarves"><img src="https://telegra.ph/file/8db76d7aa4f2aee630167.jpg"></a></p>
+<p align="center"><a href="https://github.com/BotMasterOfficial/Jarves"><img src="https://telegra.ph/file/534d1660a59b4b3a48fdd.jpg"></a></p>
 
 #
 
