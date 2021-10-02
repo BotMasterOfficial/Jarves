@@ -66,8 +66,8 @@
 <p align="center">𝐅𝐢𝐧𝐝 𝐋𝐮𝐜𝐚𝐬 𝐎𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦</p>
 
 <p align="center">
-    <a href="https://t.me/LucasOfficialBot"><img src="https://img.shields.io/badge/Best-Bot-ff69b4" /></a>
-    <a href="https://t.me/LucasOfficialBot"><img src="https://img.shields.io/badge/Telegram-𝐉𝐚𝐫𝐯𝐞𝐬-gold?&style=flat-square?&logo=telegram" width=600px></a></p>
+    <a href="https://t.me/Jarvis_RMCMG_Bot"><img src="https://img.shields.io/badge/Best-Bot-ff69b4" /></a>
+    <a href="https://t.me/Jarvis_RMCMG_Bot"><img src="https://img.shields.io/badge/Telegram-𝐉𝐚𝐫𝐯𝐞𝐬-gold?&style=flat-square?&logo=telegram" width=600px></a></p>
 </p>
 
 #
