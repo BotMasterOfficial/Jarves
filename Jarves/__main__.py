@@ -97,7 +97,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Jarves?startgroup=true"),
+        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Jarvis_RMCMG_Bot?startgroup=true"),
     ],
 ]
 
@@ -109,7 +109,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
+ @mkspali 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -356,7 +356,7 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" 𝗜𝗡𝗡𝗘𝗫𝗜𝗔 - A bot to manage your groups with additional features!
+            text=""" JARVIS - A bot to manage your groups with additional features!
             \nHere's the basic help regarding use of Innexia.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
