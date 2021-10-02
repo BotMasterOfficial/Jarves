@@ -103,9 +103,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 𝐀𝐛𝐨𝐮𝐭 📜", callback_data="innexia_"),
+        InlineKeyboardButton(text="📜 𝐀𝐛𝐨𝐮𝐭 📜", callback_data="Jarves_"),
         InlineKeyboardButton(
-            text=" 👮𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 👮", callback_data="innexia_basichelp"
+            text=" 👮𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 👮", callback_data="Jarves_basichelp"
         ),
     ],
     [
@@ -242,7 +242,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/SiderzChat")]]
+                [[InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="t.me/BotMaster_mkspali")]]
             ),
         )
         
@@ -370,12 +370,12 @@ def help_button(update, context):
 
 
 @run_async
-def innexia_about_callback(update, context):
+def Jarves_about_callback(update, context):
     query = update.callback_query
-    if query.data == "innexia_":
+    if query.data == "Jarves_":
         query.message.edit_text(
-            text=""" JARVIS - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of Innexia.
+            text=""" [JARVIS](t.me/Jarvis_RMCMG_Bot) - A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of [Jarves](t.me/Jarvis_RMCMG_Bot).
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -385,17 +385,17 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/SiderzChat"
+                            text="♻️𝐆𝐫𝐨𝐮𝐩♻️", url="t.me/BotMasterOfficial"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/SiderzBot/11"
+                            text="♻️𝐂𝐡𝐚𝐧𝐧𝐞𝐥♻️", url="t.me/BotMaster_mkspali"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="Jarves_back")],
                 ]
             ),
         )
-    elif query.data == "innexia_back":
+    elif query.data == "Jarves_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -404,10 +404,10 @@ def innexia_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-    elif query.data == "innexia_basichelp":
+    elif query.data == "Jarves_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
-            f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
+            f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [Add Me To Your Group](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
             f"\n• Than send `/admincache@Jarves` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
@@ -417,15 +417,15 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="innexia_admin"),
-                    InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="innexia_notes"),
+                    InlineKeyboardButton(text="♻️𝐀𝐝𝐦𝐢𝐧♻️", callback_data="jarves_admin"),
+                    InlineKeyboardButton(text="♻️𝐍𝐨𝐭𝐞𝐬♻️", callback_data="jarves_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="innexia_support"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="innexia_credit"),
+                    InlineKeyboardButton(text="♻️𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻️", callback_data="jarves_support"),
+                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐝𝐢𝐭𝐬♻️", callback_data="jarves_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_back"),
+                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_back"),
                  
                  ]
                 ]
