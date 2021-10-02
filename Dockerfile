@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/innexiaBot
-RUN git clone -b shiken https://github.com/QueenArzoo/innexiaBot /root/innexiaBot
-WORKDIR /root/innexiaBot
+# Copy Python Requirements to /root/Jarves
+RUN git clone -b shiken https://github.com/BotMasterOfficial/Jarves /root/Jarves
+WORKDIR /root/Jarves
 
-#Copy config file to /root/innexiaBot/innexiaBot
-COPY ./innexiaBot/sample_config.py ./innexiaBot/config.py* /root/innexiaBot/innexiaBot/
+#Copy config file to /root/Jarves/Jarves
+COPY ./Jarves/sample_config.py ./Jarves/config.py* /root/Jarves/Jarves/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","innexiaBot"]
+CMD ["python3","-m","Jarves"]
