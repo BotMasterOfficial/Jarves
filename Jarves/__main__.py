@@ -103,9 +103,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 𝐀𝐛𝐨𝐮𝐭 📜", callback_data="Jarves_"),
+        InlineKeyboardButton(text="📜 𝐀𝐛𝐨𝐮𝐭 📜", callback_data="jarves_"),
         InlineKeyboardButton(
-            text=" 👮𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 👮", callback_data="Jarves_basichelp"
+            text=" 👮𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 👮", callback_data="jarves_basichelp"
         ),
     ],
     [
@@ -370,9 +370,9 @@ def help_button(update, context):
 
 
 @run_async
-def Jarves_about_callback(update, context):
+def jarves_about_callback(update, context):
     query = update.callback_query
-    if query.data == "Jarves_":
+    if query.data == "jarves_":
         query.message.edit_text(
             text=""" [JARVIS](t.me/Jarvis_RMCMG_Bot) - A bot to manage your groups with additional features!
             \nHere's the basic help regarding use of [Jarves](t.me/Jarvis_RMCMG_Bot).
@@ -391,11 +391,11 @@ def Jarves_about_callback(update, context):
                             text="♻️𝐂𝐡𝐚𝐧𝐧𝐞𝐥♻️", url="t.me/BotMaster_mkspali"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="Jarves_back")],
+                    [InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_back")],
                 ]
             ),
         )
-    elif query.data == "Jarves_back":
+    elif query.data == "jarves_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -404,7 +404,7 @@ def Jarves_about_callback(update, context):
                 disable_web_page_preview=False,
         )
 
-    elif query.data == "Jarves_basichelp":
+    elif query.data == "jarves_basichelp":
         query.message.edit_text(
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [Add Me To Your Group](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
@@ -431,10 +431,10 @@ def Jarves_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "innexia_admin":
+    elif query.data == "jarves_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Innexia now ready to manage your group."
+            f"\nCongragulations, [Jarves](t.me/Jarvis_RMCMG_Bot) now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -444,11 +444,11 @@ def Jarves_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="innexia_basichelp")]]
+                [[InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp")]]
             ),
         )
 
-    elif query.data == "innexia_notes":
+    elif query.data == "jarves_notes":
         query.message.edit_text(
             text=f"<b> Setting up notes</b>"
             f"\nYou can save message/media/audio or anything as notes"
@@ -456,48 +456,48 @@ def Jarves_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="innexia_basichelp")]]
+                [[InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp")]]
             ),
         )
-    elif query.data == "innexia_support":
+    elif query.data == "jarves_support":
         query.message.edit_text(
-            text="* Innexia support chats*"
+            text="* Jarves support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/InnexiaLogs"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/SiderzFedChat"),
+                    InlineKeyboardButton(text="♻️𝐂𝐡𝐚𝐧𝐧𝐞𝐥♻️", url="t.me/BotMaster_mkspali"),
+                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐝𝐢𝐭𝐬♻️", url="t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/SiderzChat"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/SiderzBot"),
+                    InlineKeyboardButton(text="♻️𝐆𝐫𝐨𝐮𝐩♻️", url="t.me/BotMasterOfficial"),
+                    InlineKeyboardButton(text="♻️𝐎𝐰𝐧𝐞𝐫♻️", url="https://t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
+                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp"),
                  
                  ]
                 ]
             ),
         )
-    elif query.data == "innexia_credit":
+    elif query.data == "jarves_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR INNEXIA DEV'S</b>\n"
+            text=f"<b> CREDIT FOR JARVES DEV'S</b>\n"
             f"\nHere Some Developers Helping in Making The Innexia Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴀᴍᴍʏ", url="t.me/useIes"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="♻️𝐎𝐰𝐧𝐞𝐫♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️𝐀𝐝𝐦𝐢𝐧♻️", url="t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="Iɴꜰɪɴɪᴛʏ", url="t.me/hell_king_infinity"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="♻️𝐁𝐨𝐬𝐬♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐚𝐭𝐨𝐫♻️", url="https://t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
+                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp"),
                  
                  ]
                 ]
@@ -510,7 +510,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Innexia*
+            text=""" Hi..😻 I'm *Jarves*
                  \nHere is the [🔥Source Code🔥](https://github.com/BotMasterOfficial/Jarves) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
