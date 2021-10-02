@@ -75,14 +75,8 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/63e35c57b65861ee4bcb4.jpg"
 
 PM_START_TEXT = """
-𝐇𝐞𝐥𝐥𝐨 {}, 
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 [Jarves](t.me/mkspali)! 
-𝐈𝐟 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐚𝐛𝐨𝐮𝐭 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐩𝐥𝐞𝐚𝐬𝐞 𝐠𝐢𝐯𝐞 𝐦𝐞 /help.....
-𝐈 𝐚𝐦 𝐚 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐛𝐲  [𝐌𝐮𝐤𝐞𝐬𝐡 𝐒𝐨𝐥𝐚𝐧𝐤𝐢](t.me/mkspali).
-𝐆𝐨 𝐭𝐨 𝐌𝐲 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐚𝐧 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐢𝐭 ----> @𝐁𝐨𝐭𝐌𝐚𝐬𝐭𝐞𝐫_𝐦𝐤𝐬𝐩𝐚𝐥𝐢
-𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐠𝐫𝐨𝐮𝐩 ------> @𝐁𝐨𝐭𝐌𝐚𝐬𝐭𝐞𝐫𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥
-𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 !!!!!
-𝐅𝐨𝐫 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐥𝐢𝐜𝐤 /help...
+`Heya` 🤗 `I am` **Jarves** `your group super bot`
+`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
 buttons = [
