@@ -72,11 +72,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/63e35c57b65861ee4bcb4.jpg"
+JARVES_IMG = "https://telegra.ph/file/63e35c57b65861ee4bcb4.jpg"
 
 PM_START_TEXT = """
 𝐇𝐞𝐥𝐥𝐨 {}, 
-𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 {}! 
+𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 [Jarves](t.me/mkspali)! 
 
 𝐈𝐟 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐚𝐛𝐨𝐮𝐭 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐩𝐥𝐞𝐚𝐬𝐞 𝐠𝐢𝐯𝐞 𝐦𝐞 /help.....
 
@@ -89,6 +89,7 @@ PM_START_TEXT = """
 𝐓𝐡𝐚𝐧𝐤 𝐘𝐨𝐮 !!!!!
 
 𝐅𝐨𝐫 𝐦𝐨𝐫𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐥𝐢𝐜𝐤 /help...
+
 """
 
 buttons = [
@@ -128,7 +129,6 @@ DONATE_STRING = """𝐇𝐞𝐲, 𝐠𝐥𝐚𝐝 𝐭𝐨 𝐡𝐞𝐚𝐫 𝐲
 
 𝐓𝐡𝐞𝐫𝐞 𝐚𝐫𝐞 𝐨𝐧𝐥𝐲 𝐨𝐧𝐞 𝐰𝐚𝐲𝐬 𝐨𝐟 𝐩𝐚𝐲𝐢𝐧𝐠 𝐡𝐢𝐦; 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐡𝐢𝐦 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐥𝐲 𝐨𝐧 𝐡𝐢𝐬 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 [𝐌𝐮𝐤𝐞𝐬𝐡 𝐒𝐨𝐥𝐚𝐧𝐤𝐢](t.me/mkspali). 💕"""
 
-TECHNO_IMG = "https://telegra.ph/file/63e35c57b65861ee4bcb4.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
