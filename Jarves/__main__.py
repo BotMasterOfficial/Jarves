@@ -82,22 +82,22 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
+            text="🆘 𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🆘", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ", url=f"https://github.com/BotMasterOfficial/Jarves"),
+        InlineKeyboardButton(text="🔥 𝐒𝐨𝐮𝐫𝐜𝐞 🔥", url=f"https://github.com/BotMasterOfficial/Jarves"),
         InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
+            text="🎶 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 Aʙᴏᴜᴛ", callback_data="innexia_"),
+        InlineKeyboardButton(text="📜 𝐀𝐛𝐨𝐮𝐭 📜", callback_data="innexia_"),
         InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ 👮", callback_data="innexia_basichelp"
+            text=" 👮𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 👮", callback_data="innexia_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Jarvis_RMCMG_Bot?startgroup=true"),
+        InlineKeyboardButton(text="➕ 𝐀𝐝𝐝 𝐦𝐞 𝐓𝐨 𝐆𝐫𝐨𝐮𝐩 ➕", url="http://t.me/Jarvis_RMCMG_Bot?startgroup=true"),
     ],
 ]
 
