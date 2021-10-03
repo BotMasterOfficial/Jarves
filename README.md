@@ -71,3 +71,10 @@
 </p>
 
 #
+
+<p align="center">𝐒𝐨𝐜𝐢𝐚𝐥 𝐌𝐞𝐝𝐢𝐚</p>
+<p align="center">
+<a href="https://www.facebook.com/mkspali" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" height="40" width="40" /></a>
+<a href="https://www.instagram.com/mukeshsolankiofficial" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" height="40" width="40" /></a>
+<a href="https://t.me/mkspali" target="blank"><img align="center" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/1766858341556105723-512.png" height="40" width="40" /></a>
+<a href="https://github.com/BotMasterOfficial" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="40" width="40" /></a></p>
