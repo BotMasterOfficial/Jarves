@@ -399,7 +399,7 @@ dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(GDMORNING_HANDLER)
 dispatcher.add_handler(GDNIGHT_HANDLER)
 
-__mod_name__ = "Memes"
+__mod_name__ = "♻️ 𝐌𝐞𝐦𝐞𝐬 ♻️"
 __command_list__ = [
     "runs",
     "slap",
