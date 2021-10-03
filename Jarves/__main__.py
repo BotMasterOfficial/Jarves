@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/63e35c57b65861ee4bcb4.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **Jarves** `your group super bot`
+`Heya` 🤗 `I am` [Jarves](t.me/Jarvis_RMCMG_Bot) `Your group super bot`
 `I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
@@ -85,7 +85,7 @@ buttons = [
             text="♻️ 𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ♻️", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 𝐒𝐨𝐮𝐫𝐜𝐞 🔥", url=f"https://github.com/BotMasterOfficial/Jarves"),
+        InlineKeyboardButton(text="♻️ 𝐒𝐨𝐮𝐫𝐜𝐞 ♻️", url=f"https://github.com/BotMasterOfficial/Jarves"),
         InlineKeyboardButton(
             text="♻️ 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 ♻️", url=f"https://telegra.ph/%F0%9D%90%89%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%95%F0%9D%90%82-%F0%9D%90%8F%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%B2%F0%9D%90%9E%F0%9D%90%AB-10-02"
         ),
