@@ -105,4 +105,4 @@ sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 """
 
-__mod_name__ = "Speach"
+__mod_name__ = "♻️ 𝐒𝐩𝐞𝐞𝐜𝐡 ♻️"
