@@ -11,7 +11,7 @@
 <a href="https://github.com/BotMasterOfficial/Jarves/commits/mukesh"><img src="https://img.shields.io/github/last-commit/BotMasterOfficial/Jarves?style=social&logo=github" />
 <a href="https://github.com/BotMasterOfficial/Jarves/issues"><img src="https://img.shields.io/github/issues/BotMasterOfficial/Jarves?style=social&logo=github" />
 <a href="https://perso.crans.org/besson/LICENSE.html"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=social&logo=github" />
-<a href="https://app.codacy.com/manual/BotMasterOfficial/Jarves/dashboard"><img src="https://img.shields.io/codacy/grade/d1726ee34f964a9a9b1ac509c6d90729?color=gold&logo=github&style=social" />
+<a href="https://www.codacy.com/gh/BotMasterOfficial/Jarves/dashboard"><img src="https://img.shields.io/codacy/grade/86799656c4824c5db08d1984b02183cd?color=gold&logo=github&style=social" />
 <a href="https://github.com/BotMasterOfficial/Jarves/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=social&logo=github" />
 <a href="https://GitHub.com/BotMasterOfficial/Jarves/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained-yes-green.svg?style=social&logo=github" />
 </p>
