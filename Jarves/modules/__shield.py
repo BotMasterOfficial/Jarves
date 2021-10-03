@@ -1,4 +1,4 @@
-#    Copyright (C) DevsExpo 2020-2021
+#    Copyright (C) @BotMasterOfficial 2020-2021
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -430,7 +430,7 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Layla can protect your group from NSFW senders, Slag word users and also can force members to use English
+✪ Jarves can protect your group from NSFW senders, Slag word users and also can force members to use English
 
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
