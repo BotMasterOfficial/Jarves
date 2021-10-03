@@ -82,18 +82,18 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="♻️𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬♻️", callback_data="help_back"),
+            text="♻️ 𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ♻️", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(text="🔥 𝐒𝐨𝐮𝐫𝐜𝐞 🔥", url=f"https://github.com/BotMasterOfficial/Jarves"),
         InlineKeyboardButton(
-            text="♻️𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫♻️", url=f"https://telegra.ph/%F0%9D%90%89%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%95%F0%9D%90%82-%F0%9D%90%8F%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%B2%F0%9D%90%9E%F0%9D%90%AB-10-02"
+            text="♻️ 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 ♻️", url=f"https://telegra.ph/%F0%9D%90%89%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AF%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%95%F0%9D%90%82-%F0%9D%90%8F%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%B2%F0%9D%90%9E%F0%9D%90%AB-10-02"
         ),
     ],
     [
-        InlineKeyboardButton(text="♻️𝐀𝐛𝐨𝐮𝐭♻️", callback_data="jarves_"),
+        InlineKeyboardButton(text="♻️ 𝐀𝐛𝐨𝐮𝐭 ♻️", callback_data="jarves_"),
         InlineKeyboardButton(
-            text=" ♻️𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 ♻️", callback_data="jarves_basichelp"
+            text=" ♻️ 𝐁𝐚𝐬𝐢𝐜 𝐇𝐞𝐥𝐩 ♻️", callback_data="jarves_basichelp"
         ),
     ],
     [
@@ -370,13 +370,13 @@ def jarves_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="♻️𝐆𝐫𝐨𝐮𝐩♻️", url="t.me/BotMasterOfficial"
+                            text="♻️ 𝐆𝐫𝐨𝐮𝐩 ♻️", url="t.me/BotMasterOfficial"
                         ),
                         InlineKeyboardButton(
-                            text="♻️𝐂𝐡𝐚𝐧𝐧𝐞𝐥♻️", url="t.me/BotMaster_mkspali"
+                            text="♻️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♻️", url="t.me/BotMaster_mkspali"
                         ),
                     ],
-                    [InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_back")],
+                    [InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_back")],
                 ]
             ),
         )
@@ -402,15 +402,15 @@ def jarves_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="♻️𝐀𝐝𝐦𝐢𝐧♻️", callback_data="jarves_admin"),
-                    InlineKeyboardButton(text="♻️𝐍𝐨𝐭𝐞𝐬♻️", callback_data="jarves_notes"),
+                    InlineKeyboardButton(text="♻️ 𝐀𝐝𝐦𝐢𝐧 ♻️", callback_data="jarves_admin"),
+                    InlineKeyboardButton(text="♻️ 𝐍𝐨𝐭𝐞𝐬 ♻️", callback_data="jarves_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="♻️𝐒𝐮𝐩𝐩𝐨𝐫𝐭♻️", callback_data="jarves_support"),
-                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐝𝐢𝐭𝐬♻️", callback_data="jarves_credit"),
+                    InlineKeyboardButton(text="♻️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ♻️", callback_data="jarves_support"),
+                    InlineKeyboardButton(text="♻️ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 ♻️", callback_data="jarves_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_back"),
+                    InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_back"),
                  
                  ]
                 ]
@@ -429,7 +429,7 @@ def jarves_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp")]]
+                [[InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_basichelp")]]
             ),
         )
 
@@ -441,7 +441,7 @@ def jarves_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp")]]
+                [[InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_basichelp")]]
             ),
         )
     elif query.data == "jarves_support":
@@ -452,15 +452,15 @@ def jarves_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="♻️𝐂𝐡𝐚𝐧𝐧𝐞𝐥♻️", url="t.me/BotMaster_mkspali"),
-                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐝𝐢𝐭𝐬♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ♻️", url="t.me/BotMaster_mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 ♻️", url="t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="♻️𝐆𝐫𝐨𝐮𝐩♻️", url="t.me/BotMasterOfficial"),
-                    InlineKeyboardButton(text="♻️𝐎𝐰𝐧𝐞𝐫♻️", url="https://t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐆𝐫𝐨𝐮𝐩 ♻️", url="t.me/BotMasterOfficial"),
+                    InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫 ♻️", url="https://t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp"),
+                    InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_basichelp"),
                  
                  ]
                 ]
@@ -474,15 +474,15 @@ def jarves_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="♻️𝐎𝐰𝐧𝐞𝐫♻️", url="t.me/mkspali"),
-                    InlineKeyboardButton(text="♻️𝐀𝐝𝐦𝐢𝐧♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐎𝐰𝐧𝐞𝐫 ♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐀𝐝𝐦𝐢𝐧 ♻️", url="t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="♻️𝐁𝐨𝐬𝐬♻️", url="t.me/mkspali"),
-                    InlineKeyboardButton(text="♻️𝐂𝐫𝐞𝐚𝐭𝐨𝐫♻️", url="https://t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐁𝐨𝐬𝐬 ♻️", url="t.me/mkspali"),
+                    InlineKeyboardButton(text="♻️ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ♻️", url="https://t.me/mkspali"),
                  ],
                  [
-                    InlineKeyboardButton(text="⬅️𝐁𝐚𝐜𝐤➡️", callback_data="jarves_basichelp"),
+                    InlineKeyboardButton(text="⬅️ 𝐁𝐚𝐜𝐤 ➡️", callback_data="jarves_basichelp"),
                  
                  ]
                 ]
@@ -547,13 +547,13 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="♻️𝐇𝐞𝐥𝐩♻️",
+                            text="♻️ 𝐇𝐞𝐥𝐩 ♻️",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="♻️𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭♻️",
+                            text="♻️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭 ♻️",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
