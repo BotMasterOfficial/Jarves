@@ -1,4 +1,4 @@
-__mod_name__ = "Tools"
+__mod_name__ = "♻️ 𝐓𝐨𝐨𝐥𝐬 ♻️"
 
 __help__ = """
 *Fake Info*
