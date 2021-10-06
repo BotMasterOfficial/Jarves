@@ -36,3 +36,5 @@ def send_action(action):
             return func(update, context, *args, **kwargs)
 
         return command_func
+
+    return decorator
